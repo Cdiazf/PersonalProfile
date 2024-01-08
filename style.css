@@ -116,7 +116,7 @@ header .toggle.active{
 .content .contentBx p{
     font-size: 1em;
     color: #fff;
-    margin: 10px 0;
+    margin: 10px 0  20px;
 }
 .content .contentBx a{
     display: inline-block;
@@ -170,4 +170,11 @@ header .toggle.active{
 }
 .sci li:hover a img{
     filter: invert(0);
+}
+
+
+section.active .logo,
+section.active .content
+{
+    transform:scale(0) ;
 }
